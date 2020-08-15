@@ -1,5 +1,5 @@
 @extends('master')
-@section('title', 'Larahub | Halaman Utama')
+@section('title', 'NgodingSkuy | Halaman Utama')
 
 @section('content')
 	<div class="row">
@@ -68,11 +68,11 @@
 		<div class="col-md-3">
 			<div class="card card-success">
 				<div class="card-header">
-					Hello World!
+					Hello!
 				</div>
 				<div class="card-body">
-					Halo apa kabar semua..
-					Selamat Datang di Larahub, forum tanya jawab seputar Laravel
+					Halo apa kabar semua...
+					Selamat Datang di NgodingSkuy, forum tanya jawab seputar Web Development
 				</div>
 			</div>
 		</div>

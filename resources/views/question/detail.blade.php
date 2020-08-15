@@ -4,7 +4,7 @@
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 @endpush
 
-@section('title', 'Larahub | Detail Pertanyaan')
+@section('title', 'NgodingSkuy | Detail Pertanyaan')
 @section('content')
 
 	<div class="card card-widget">

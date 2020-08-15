@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Larahub | Registrasi</title>
+  <title>NgodingSkuy | Registrasi</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,16 +18,36 @@
   <link rel="stylesheet" href="{{asset('/adminlte/dist/css/adminlte.min.css')}}">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+   <style type="text/css">
+body{
+  width: 100%;
+  height: 100%;
+  background: url('assets/img/bg-01.jpg') center center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+ -webkit-tap-highlight-color: transparent;
+
+}
+div.register-box{
+        margin: 150px auto;
+        width: 400px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background: white; 
+} 
+</style>
 </head>
-<body class="hold-transition register-page">
+
+<body>
 <div class="register-box">
   <div class="register-logo">
-    <a><b>Lara</b>HUB</a>
+    <a><b>Ngoding</b>Skuy</a>
   </div>
 
   <div class="card">
     <div class="card-body register-card-body">
-      <p class="login-box-msg">Register akun baru</p>
+      <p class="login-box-msg">Register New Akun</p>
 
       <form method="POST" action="{{ route('register') }}">
         @csrf

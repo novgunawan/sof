@@ -4,7 +4,7 @@
 	<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 @endpush
 
-@section('title', 'Larahub | Edit Pertanyaan')
+@section('title', 'NgodingSkuy | Edit Pertanyaan')
 
 @section('content')
 	
