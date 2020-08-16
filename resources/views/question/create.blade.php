@@ -4,7 +4,7 @@
 	<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 @endpush
 
-@section('title', 'Larahub | Buat Pertanyaan')
+@section('title', 'NGODINGSKUY | Buat Pertanyaan')
 
 @section('content')
 	<form action="/questions" method="POST">
@@ -17,13 +17,13 @@
 	    	<div class="card-body">
 	      		<div class="form-group">
 	        		<label for="judul">Judul <br>
-	        			<small>Ajukan dengan spesifik dan bayangkan anda sedang bertanya kepada orang lain.</small>
+	        			{{-- <small>Ajukan dengan spesifik dan bayangkan anda sedang bertanya kepada orang lain.</small> --}}
 	        		</label>
 	        		<input type="text" class="form-control" name="judul" id="judul">
 	      		</div>
 	      		<div class="form-group">
 	        		<label>Isi Pertanyaan <br>
-	        			<small>Sertakan semua informasi yang dibuthkan untuk menjawab pertanyaan Anda.</small>
+	        			{{-- <small>Sertakan semua informasi yang dibuthkan untuk menjawab pertanyaan Anda.</small> --}}
 	        		</label>
 	        		<textarea id="isi_pertanyaan" name="isi_pertanyaan" class="form-control my-editor">
 	        			{!! old('isi_pertanyaan',$content ?? '' ) !!}

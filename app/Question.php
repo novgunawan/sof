@@ -16,7 +16,7 @@ class Question extends Model
     public function answer() {
     return $this->hasMany('App\Answer','questions_id');
     }
-    
+    // BELONGS TO USER, lalu declare kolom di question yang punya hubungan foreign key ke tabel user
     public function user(){
     	return $this->belongsTo('App\User','users_id');
     }

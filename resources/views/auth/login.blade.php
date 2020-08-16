@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Larahub | Log in</title>
+  <title>NGODINGSKUY | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,13 +21,14 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a><b>Lara</b>HUB</a>
+    <a><b>NGODING</b>SKUY</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Login untuk memulai diskusi</p>
 
+      {{-- Action berisi url yang akan memproses form. Dalam konteks ini, route login akan menghandle form --}}
       <form method="POST" action="{{ route('login') }}">
         @csrf
         <div class="input-group mb-3">
@@ -69,6 +70,7 @@
           <!-- /.col -->
           <div class="col-4">
             <button type="submit" class="btn btn-primary btn-block">
+              {{-- Untuk ngeprint text di button --}}
                 {{ __('Login') }}
             </button>
           </div>

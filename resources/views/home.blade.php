@@ -15,6 +15,7 @@
                     @endif
 
                     You are logged in!
+                    <a class="btn btn-primary" href="">Go to index.</a>
                 </div>
             </div>
         </div>

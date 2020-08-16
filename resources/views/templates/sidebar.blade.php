@@ -6,7 +6,7 @@
            alt="AdminLTE Logo"
            class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Larahub</span>
+      <span class="brand-text font-weight-light">NGODINGSKUY</span>
     </a>
 
     <!-- Sidebar -->
@@ -21,7 +21,7 @@
             <a href="/questions" class="nav-link {{ (request()->segment(2) == '') ? 'active' : '' }}">
               <i class="nav-icon fas fa-globe-asia"></i>
               <p>
-                Beranda
+                Home
               </p>
             </a>
           </li>

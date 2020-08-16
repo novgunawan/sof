@@ -4,7 +4,7 @@
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 @endpush
 
-@section('title', 'Larahub | Detail Pertanyaan')
+@section('title', 'NGODINGSKUY | Detail Pertanyaan')
 @section('content')
 
 	<div class="card card-widget">
@@ -82,6 +82,7 @@
     </div>
 
     <div class="card-body">
+      {{-- ECHO JAWABAN --}}
       @foreach($ask->answer as $ask)
         <div class="post">
           <div class="user-block">
@@ -106,6 +107,7 @@
               </div>
               <div id="collapse{{ $ask->id }}" class="panel-collapse collapse in">
                 <div class="card-body card-comments">
+                  {{-- ECHO KOMENTAR UNTUK ANSWER --}}
                   @foreach($ask->anscomment as $asc)
                   <div class="card-comment">
                     <span class="username">
