@@ -4,7 +4,11 @@
 	<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 @endpush
 
+<<<<<<< HEAD
 @section('title', 'NGODINGSKUY | Buat Pertanyaan')
+=======
+@section('title', 'NgodingSkuy | Buat Pertanyaan')
+>>>>>>> 7dcc38681f9abcaf9501230c64cd80816cbd8ce7
 
 @section('content')
 	<form action="/questions" method="POST">

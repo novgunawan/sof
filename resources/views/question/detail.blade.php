@@ -4,7 +4,11 @@
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 @endpush
 
+<<<<<<< HEAD
 @section('title', 'NGODINGSKUY | Detail Pertanyaan')
+=======
+@section('title', 'NgodingSkuy | Detail Pertanyaan')
+>>>>>>> 7dcc38681f9abcaf9501230c64cd80816cbd8ce7
 @section('content')
 
 	<div class="card card-widget">

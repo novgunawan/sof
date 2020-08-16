@@ -6,7 +6,11 @@
            alt="AdminLTE Logo"
            class="brand-image img-circle elevation-3"
            style="opacity: .8">
+<<<<<<< HEAD
       <span class="brand-text font-weight-light">NGODINGSKUY</span>
+=======
+      <span class="brand-text font-weight-light">NgodingSkuy</span>
+>>>>>>> 7dcc38681f9abcaf9501230c64cd80816cbd8ce7
     </a>
 
     <!-- Sidebar -->

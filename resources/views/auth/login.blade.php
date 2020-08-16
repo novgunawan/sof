@@ -1,9 +1,14 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< HEAD
   <title>NGODINGSKUY | Log in</title>
+=======
+  <title>NgodingSkuy | Log in</title>
+>>>>>>> 7dcc38681f9abcaf9501230c64cd80816cbd8ce7
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,8 +22,26 @@
   <link rel="stylesheet" href="{{asset('/adminlte/dist/css/adminlte.min.css')}}">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <style type="text/css">
+body{
+  width: 100%;
+  height: 50%;
+  background: url('assets/img/bg-01.jpg') center center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+
+}
+div.login-box{
+        margin: 100px auto;
+        width: 400px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        background: white; 
+} 
+</style>
 </head>
-<body class="hold-transition login-page">
+<body >
 <div class="login-box">
   <div class="login-logo">
     <a><b>NGODING</b>SKUY</a>
@@ -26,7 +49,7 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Login untuk memulai diskusi</p>
+      <p class="login-box-msg">Login dulu yaaa</p>
 
       {{-- Action berisi url yang akan memproses form. Dalam konteks ini, route login akan menghandle form --}}
       <form method="POST" action="{{ route('login') }}">
@@ -79,7 +102,7 @@
       </form>
 
       <p class="mb-0 mt-3">
-        Belum punya akun? <a href="{{ route('register') }}" class="btn btn-sm btn-danger float-right">Register</a>
+        Belum punya akun? <a href="{{ route('register') }}" class="btn btn-primary btn-danger float-right">Register</a>
       </p>
     </div>
     <!-- /.login-card-body -->
