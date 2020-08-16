@@ -4,11 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<<<<<<< HEAD
-  <title>NGODINGSKUY | Registrasi</title>
-=======
   <title>NgodingSkuy | Registrasi</title>
->>>>>>> 7dcc38681f9abcaf9501230c64cd80816cbd8ce7
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 

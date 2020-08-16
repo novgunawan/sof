@@ -1,9 +1,5 @@
 @extends('master')
-<<<<<<< HEAD
 @section('title', 'NGODINGSKUY | Halaman Utama')
-=======
-@section('title', 'NgodingSkuy | Halaman Utama')
->>>>>>> 7dcc38681f9abcaf9501230c64cd80816cbd8ce7
 
 @section('content')
 	<div class="row">
@@ -65,15 +61,7 @@
 		<div class="col-md-3">
 			<div class="card card-success">
 				<div class="card-header">
-<<<<<<< HEAD
 				Welcome, {{Auth::user()->name}}!
-=======
-					Hello!
-				</div>
-				<div class="card-body">
-					Halo apa kabar semua...
-					Selamat Datang di NgodingSkuy, forum tanya jawab seputar Web Development
->>>>>>> 7dcc38681f9abcaf9501230c64cd80816cbd8ce7
 				</div>
 			</div>
 		</div>
